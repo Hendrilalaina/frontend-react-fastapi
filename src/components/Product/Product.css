@@ -1,0 +1,18 @@
+.post {
+  border: 1px solid beige;
+  display: block;
+  width: 200pt;
+}
+
+.detail {
+  background-color: darkolivegreen;
+  border: none;
+  border-radius: 0%;
+  margin-bottom: 10px;
+  transition: background-color .3s ease-in;
+}
+
+.detail:hover {
+  background-color: yellowgreen;
+  color: darkgreen;
+}

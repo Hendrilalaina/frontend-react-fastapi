@@ -1,0 +1,41 @@
+.details {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  background-color: #cfcece;
+}
+
+.details form input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+
+.details form label {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.details form .button button {
+  margin: 12px 6px;
+  border: none;
+  border-radius: 0;
+  background-color: #1a1212;
+  transition: opacity 0.3s ease;
+}
+
+.details form .button button:hover {
+  opacity: 0.9;
+}
